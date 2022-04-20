@@ -6,17 +6,16 @@
  * Return: void
  */
 
-
 void _puts(char *str)
 {
 	int g = 0;
 
 	while (str[g])
-	{
+{
 
-	_putchar (str[g]);
+_putchar (str[g]);
 	g++;
-	}
+}
 
 	_putchar('\n');
 }
