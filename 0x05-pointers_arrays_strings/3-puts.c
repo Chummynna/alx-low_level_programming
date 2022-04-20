@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _puts - prints a string
- * @str: A pointer to an int that will be changed
+
+ * _puts - prints a string followed by a new line.
  *
+ * @str: pointer to the string to print
  * Return: void
  */
 
@@ -10,7 +11,8 @@ void _puts(char *str)
 {
 int g = 0;
 
-while (str[g])
+while
+(str[g])
 {
 _putchar (str[g]);
 g++;
