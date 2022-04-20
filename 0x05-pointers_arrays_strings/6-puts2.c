@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * puts2 - prints a string, followed by a new line
  * @str: pointer to the string to print
@@ -7,16 +8,13 @@
 
 void puts2(char *str)
 {
-	int i = 0;
+int b;
 
-	while (str[i] != '\n')
-	{
-		if (i % 2 == 0)
-		{
-			_putchar(str[i]);
-		}
+for (b = 0; str[b] != '\0'; b++)
+{
+if (b % 2 == 0)
+_putchar (str[b]);
+}
 
-		i++;
-	}
-	_putchar('\n');
+_putchar('\n');
 }
