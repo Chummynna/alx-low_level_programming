@@ -26,5 +26,4 @@ j++;
 }
 
 return (dest);
-
 }
