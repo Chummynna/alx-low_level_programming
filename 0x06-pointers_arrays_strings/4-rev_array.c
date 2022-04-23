@@ -2,7 +2,7 @@
 /**
  * reverse_array - reverses the content of an array of integers
  * @a: array of integers
- * @n: num of the array
+ * @n: num of elements of the array
  * Return: void
  */
 
@@ -25,7 +25,7 @@ end_c++;
 
 
 
-for (i = 0; i < n / 2; i++)
+for (j = 0; j < n / 2; j++)
 {
 
 
