@@ -7,23 +7,23 @@
  */
 char *leet(char *str)
 {
-	int b, d;
-	char s[] = "aAeEoOtTlL";
+	int i, j;
+	char c[] = "aAeEoOtTlL";
 	char n[] = "4433007711";
 
-	b = 0;
-	while (str[b] != '\0')
+	i = 0;
+	while (str[i] != '\0')
 	{
-		d = 0;
-		while (s[d] != '\0')
+		j = 0;
+		while (c[j] != '\0')
 		{
-			if (str[b] == c[d])
+			if (str[i] == c[j])
 			{
-				str[b] = n[d];
+				str[i] = n[j];
 			}
-			d++;
+			j++;
 		}
-		b++;
+		i++;
 	}
 	return (str);
 }
