@@ -21,3 +21,20 @@ for (j = 0; j < n - 1; j++)
 {
 end_c++;
 }
+
+
+
+
+for (i = 0; i < n / 2; i++)
+{
+
+
+c = *end_c;
+*end_c = *start_c;
+*start_c = c;
+
+start_c++;
+end_c--;
+}
+
+}
