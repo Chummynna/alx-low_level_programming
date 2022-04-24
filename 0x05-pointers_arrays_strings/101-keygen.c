@@ -11,6 +11,6 @@ int num;
 
 srand(time(0));
 num = rand();
-printf("%j\n", num);
+printf("%c\n", num);
 return (0);
 }
