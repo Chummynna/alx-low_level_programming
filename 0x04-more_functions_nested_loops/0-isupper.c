@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _isupper - checks for uppercase character
- * @c: print int
- * Return: Always 0
+ * _isdigit - if is a digit
+ *@c: print int
+ * Return: Always 0.
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-if  (c >= 'A' && c <= 'Z');
+if (c >= 48 && c <= 57)
 {
 return (1);
 }
@@ -16,5 +16,4 @@ else
 {
 return (0);
 }
-
 }
