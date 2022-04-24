@@ -1,19 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdio.h>
 /**
- * main - casts random passwords
- * Return: zero
+ *
  */
 int main(void)
 {
-	int sum;
-	char x;
+int num;
 
-	srand(time(0));
-	x = rand(0);
-		sum += x;
-		putchar(x);
+srand(time(0));
+num = rand();
+printf("%j\n", num);
 return (0);
 }
