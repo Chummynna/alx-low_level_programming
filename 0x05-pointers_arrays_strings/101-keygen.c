@@ -11,11 +11,9 @@ int main(void)
 	int sum;
 	char x;
 
-	srand(time(0))
-	x = rand() % 128;
+	srand(time(0));
+	x = rand(0);
 		sum += x;
 		putchar(x);
-	}
-	putchar(2772 - sum);
-	return (0);
+return (0);
 }
