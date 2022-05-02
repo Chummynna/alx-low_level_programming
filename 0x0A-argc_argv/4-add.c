@@ -21,6 +21,7 @@ if (!xsdigit(argv[x][y]))
 printf("Error\n");
 return (1);
 }
+}
 add += atoi(argv[x]);
 }
 printf("%d\n", add);
