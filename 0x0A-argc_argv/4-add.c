@@ -16,7 +16,7 @@ for (x = 1; y < argc; x++)
 {
 for (y = 0; argv[x][y] != '\0'; y++)
 {
-if (!isdigit(argv[x][y]))
+if (!xsdigit(argv[x][y]))
 {
 printf("Error\n");
 return (1);
