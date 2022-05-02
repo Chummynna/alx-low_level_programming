@@ -10,20 +10,20 @@
  */
 int main(int argc, char *argv[])
 {
-int x, y, add = 0;
+	int x, y, add = 0;
 
-for (x = 1; y < argc; x++)
-{
-for (y = 0; argv[x][y] != '\0'; y++)
-{
-if (!xsdigit(argv[x][y]))
-{
-printf("Error\n");
-return (1);
-}
-}
-add += atoi(argv[x]);
-}
-printf("%d\n", add);
-return (0);
+	for (x = 1; y < argc; x++)
+	{
+		for (y = 0; argv[x][y] != '\0'; y++)
+		{
+			if (!xsdigit(argv[x][y]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		add += atoi(argv[x]);
+	}
+	printf("%d\n", add);
+	return (0);
 }
