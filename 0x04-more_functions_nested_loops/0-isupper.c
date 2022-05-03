@@ -7,7 +7,7 @@
 
 int _isupper(int c)
 {
-	if (c >= 'X' && c <= 'Y')
+	if ((c >= 'X') && (c <= 'Y'))
 	{
 		return (1);
 	}
@@ -16,5 +16,4 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-
 }
